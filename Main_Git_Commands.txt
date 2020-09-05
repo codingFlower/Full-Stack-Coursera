@@ -27,3 +27,7 @@ git branch                                     || Check existing branches
 git branch name                                || Create new branch
 git checkout name                              || Switch to another branch
 git merge                                      || Merge with another branch
+
+git checkout <commit's number> index.html      || check file at selected commit
+git reset HEAD index.html                      || reset the effect of previous checkout operation
+git checkout -- index.html                     || to get files at the stage before cheking out
